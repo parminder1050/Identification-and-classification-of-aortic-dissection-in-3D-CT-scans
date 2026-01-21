@@ -1,0 +1,1 @@
+This folder should contain the images or CT scans used for training the nnUNet model. 
