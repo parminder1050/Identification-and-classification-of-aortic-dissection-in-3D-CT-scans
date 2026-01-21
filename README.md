@@ -1,5 +1,11 @@
-## Identification and classification of aortic dissection in 3D CT scans
+# Identification and classification of aortic dissection in 3D CT scans
 
+This repository comprises the implementation details for our work related to identifying and classifying aortic dissection (AD) [link](https://doi.org/10.5281/zenodo.18303099):
+
+**Article**: Kaur, P., Asif, A., Lakshminarayan, R., Monekosso, D., & Remagnino, P. (2026). **Identification and classification of aortic dissection in 3D CT scans**. Zenodo. https://doi.org/10.5281/zenodo.18303099
+
+
+## Description
 This repository contains the code and implementation steps for our work related to identifying and classifying aortic dissection (AD) cases in 3D CT scans. We leveraged the _nnUNet v2_ model to perform automatic segmentation of the aorta (**four labels**) in CT scans. After retrieving the segmentation masks, a simple yet effective procedure was used for patient-level classification (**three classes**) based on the model’s results (segment presence and Dice score threshold). The two types of AD, as per _Stanford criteria_, are **Type A (TBAD) and Type B (TBAD)** (refer to the attached figure _AD classes.pdf_). The third class we are considering here is a normal CT scan, dubbed **NoAD**.
 
 The dataset used for experimentation was collected by retrospectively searching the picture archiving and communication system (PACS) database based at a single regional tertiary vascular and cardiothoracic unit, following national and local ethics approval. Contrast-enhanced CTA scans were included and reviewed by radiologists. The data annotation is performed by experts (radiologists) and consists of four labels: **dissected pre, dissected post, non pre, and non post**, where _pre_ and _post_ refer to the location of the dissection relative to the subclavian artery, a branch of the aorta acting as a boundary between _TAAD_ and _TBAD_, respectively. A scan containing the label _dissected pre_ is classified as _TAAD_; if it contains _dissected post_ without _dissected pre_, it is classified as _TBAD_, and if it contains _non pre_ and _non post_ labels only, then the scan is classified as _NoAD_.
@@ -14,4 +20,14 @@ Use the attached _patient-level classify.ipynb_ jupyter notebook for classificat
 
 For more information regarding this work, refer to the article below and cite it.
 
-Kaur, P., Asif, A., Lakshminarayan, R., Monekosso, D., & Remagnino, P. (2026). Identification and classification of aortic dissection in 3D CT scans. Zenodo. https://doi.org/10.5281/zenodo.18303099
+## Citation
+
+```bibtex
+@misc{kaur2026identification,
+  author = {Kaur, Parminder and Asif, Ashar and Lakshminarayan, Raghu and Monekosso, Dorothy and Remagnino, Paolo},
+  title = Identification and classification of aortic dissection in 3D CT scans},
+  year = {2026},
+  howpublished = {\url{https://doi.org/10.5281/zenodo.18303099}},
+  doi = {10.5281/zenodo.18303099},
+  publisher = {Zenodo}
+}
