@@ -1,0 +1,23 @@
+Starting at Wed 26 Feb 2025 09:51:10 PM GMT
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+Traceback (most recent call last):
+  File "/home3/hghr96/miniconda3/envs/nnUnet/bin/nnUNetv2_predict", line 8, in <module>
+    sys.exit(predict_entry_point())
+  File "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/nnunetv2/inference/predict_from_raw_data.py", line 951, in predict_entry_point
+    predictor.initialize_from_trained_model_folder(
+  File "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/nnunetv2/inference/predict_from_raw_data.py", line 84, in initialize_from_trained_model_folder
+    checkpoint = torch.load(join(model_training_output_dir, f'fold_{f}', checkpoint_name),
+  File "/home3/hghr96/miniconda3/envs/nnUnet/lib/python3.9/site-packages/torch/serialization.py", line 1425, in load
+    with _open_file_like(f, "rb") as opened_file:
+  File "/home3/hghr96/miniconda3/envs/nnUnet/lib/python3.9/site-packages/torch/serialization.py", line 751, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home3/hghr96/miniconda3/envs/nnUnet/lib/python3.9/site-packages/torch/serialization.py", line 732, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/data/nnUNet_results/Dataset501_AD/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_all/checkpoint_best.pth'
+Finished at Wed 26 Feb 2025 09:51:23 PM GMT
+Total Execution Time: 13 seconds

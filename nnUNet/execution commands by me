@@ -1,0 +1,28 @@
+nnUNetv2_plan_and_preprocess -d 501 --verify_dataset_integrity
+
+nnUNetv2_plan_and_preprocess -d 501 --verify_dataset_integrity --num_processes 1
+
+
+nnUNetv2_train 501 3d_fullres 0 --npz
+
+
+
+
+
+
+
+
+gpt
+
+Provide me the code for following:
+
+We need to convert the data into the nnunet input format. I have .nii.gz files (CT scan masks) in a folder. I need to update the names of the files in a sequence. For instance, "ad_001". The number "001" will be different for each file and it will be in a sequence: 002, 003, 004, so on. The initial part "ad_" will be same in all. These are for the CT_scan labels and correspondigly, we need to update the CT scan names as well which are in a different folder but with the same names as the labels. The naming convention for the scans is "ad_001_0000". The number "001" will be different for each file and it will be in a sequence: 002, 003, 004, so on [same as the masks above] and "_0000" is constant for all the scans and will not change. Don't change the extensions of the files. We need to save the results in separate folders.    
+
+
+
+I have got the mean dice scores for each class and specifically for each case as well in the attached json file. I want to read this json and print all the mean metrics of each class. I don't know what is "foreground_mean"? for patient-level classification using the predicted metrics, I want to do the following: 
+(a) if class "1" dice is greater than threshold and class "3" dice is less than a threashold, then it is "TAAD" (Type A Aortic Dissection).
+(b) if no (a) and class "2" dice is greater than "0.5", then it is "TBAD" (Type B Aortic Dissection).  
+(c) if no (a) and (b) and both class "3" and "4" are greater than "0.5" then it is "NoAD" (No Aortic Dissection). 
+
+I want to print the results case wise. 

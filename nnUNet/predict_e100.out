@@ -1,0 +1,85 @@
+Starting at Thu 20 Feb 2025 11:36:50 AM GMT
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+There are 15 cases in the source folder
+I am process 0 out of 1 (max process ID is 0, we start counting with 0!)
+There are 15 cases that I would like to predict
+
+Predicting ad_051:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_051
+
+Predicting ad_052:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_052
+
+Predicting ad_059:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_059
+
+Predicting ad_060:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_060
+
+Predicting ad_061:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_061
+
+Predicting ad_065:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_065
+
+Predicting ad_066:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_066
+
+Predicting ad_067:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_067
+
+Predicting ad_068:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_068
+
+Predicting ad_069:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_069
+
+Predicting ad_097:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_097
+
+Predicting ad_098:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_098
+Traceback (most recent call last):
+  File "/home3/hghr96/miniconda3/envs/nnUnet/bin/nnUNetv2_predict", line 8, in <module>
+    sys.exit(predict_entry_point())
+  File "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/nnunetv2/inference/predict_from_raw_data.py", line 956, in predict_entry_point
+    predictor.predict_from_files(args.i, args.o, save_probabilities=args.save_probabilities,
+  File "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/nnunetv2/inference/predict_from_raw_data.py", line 262, in predict_from_files
+    return self.predict_from_data_iterator(data_iterator, save_probabilities, num_processes_segmentation_export)
+  File "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/nnunetv2/inference/predict_from_raw_data.py", line 355, in predict_from_data_iterator
+    for preprocessed in data_iterator:
+  File "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/nnunetv2/inference/data_iterators.py", line 111, in preprocessing_iterator_fromfiles
+    raise RuntimeError('Background workers died. Look for the error message further up! If there is '
+RuntimeError: Background workers died. Look for the error message further up! If there is none then your RAM was full and the worker was killed by the OS. Use fewer workers or get more RAM in that case!
+Finished at Thu 20 Feb 2025 12:29:41 PM GMT
+Total Execution Time: 3171 seconds
+slurmstepd: error: Detected 1 oom_kill event in StepId=684355.batch. Some of the step tasks have been OOM Killed.

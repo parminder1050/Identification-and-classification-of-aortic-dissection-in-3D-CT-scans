@@ -1,0 +1,25 @@
+Last 5 from each folder are used for testing nnUNet
+
+TAAD
+Renamed: AD51-1.nii.gz -> ad_051.nii.gz, CT -> ad_051_0000.nii.gz
+Renamed: AD51-2.nii.gz -> ad_052.nii.gz, CT -> ad_052_0000.nii.gz
+Renamed: AD53-4.nii.gz -> ad_059.nii.gz, CT -> ad_059_0000.nii.gz
+Renamed: AD54.nii.gz -> ad_060.nii.gz, CT -> ad_060_0000.nii.gz
+Renamed: AD55.nii.gz -> ad_061.nii.gz, CT -> ad_061_0000.nii.gz
+
+
+TBAD
+Renamed: AD59.nii.gz -> ad_065.nii.gz, CT -> ad_065_0000.nii.gz
+Renamed: AD60.nii.gz -> ad_066.nii.gz, CT -> ad_066_0000.nii.gz
+Renamed: AD61-1.nii.gz -> ad_067.nii.gz, CT -> ad_067_0000.nii.gz
+Renamed: AD61-2.nii.gz -> ad_068.nii.gz, CT -> ad_068_0000.nii.gz
+Renamed: AD61-3.nii.gz -> ad_069.nii.gz, CT -> ad_069_0000.nii.gz
+
+
+Non
+Renamed: NON37.nii.gz -> ad_097.nii.gz, CT -> ad_097_0000.nii.gz
+Renamed: NON38.nii.gz -> ad_098.nii.gz, CT -> ad_098_0000.nii.gz
+Renamed: NON39.nii.gz -> ad_099.nii.gz, CT -> ad_099_0000.nii.gz
+Renamed: NON40.nii.gz -> ad_100.nii.gz, CT -> ad_100_0000.nii.gz
+Renamed: NON43.nii.gz -> ad_101.nii.gz, CT -> ad_101_0000.nii.gz
+

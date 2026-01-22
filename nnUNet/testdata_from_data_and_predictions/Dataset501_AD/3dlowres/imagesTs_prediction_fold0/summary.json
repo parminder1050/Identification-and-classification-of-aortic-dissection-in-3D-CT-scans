@@ -1,0 +1,746 @@
+{
+    "foreground_mean": {
+        "Dice": 0.5495967666487465,
+        "FN": 134550.5,
+        "FP": 69859.91666666666,
+        "IoU": 0.4723583522197086,
+        "TN": 280966156.3333333,
+        "TP": 407041.7833333333,
+        "n_pred": 476901.7,
+        "n_ref": 541592.2833333333
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.24777982348013072,
+            "FN": 21710.6,
+            "FP": 68484.0,
+            "IoU": 0.22443350763869507,
+            "TN": 281357614.6,
+            "TP": 129799.33333333333,
+            "n_pred": 198283.33333333334,
+            "n_ref": 151509.93333333332
+        },
+        "2": {
+            "Dice": 0.6311844267179111,
+            "FN": 87743.0,
+            "FP": 92143.0,
+            "IoU": 0.5602014953644191,
+            "TN": 280966371.93333334,
+            "TP": 431350.6,
+            "n_pred": 523493.6,
+            "n_ref": 519093.6
+        },
+        "3": {
+            "Dice": 0.6886512306563441,
+            "FN": 125266.6,
+            "FP": 50476.4,
+            "IoU": 0.5880908108022644,
+            "TN": 281022392.26666665,
+            "TP": 379473.26666666666,
+            "n_pred": 429949.6666666667,
+            "n_ref": 504739.86666666664
+        },
+        "4": {
+            "Dice": 0.6307715857405999,
+            "FN": 303481.8,
+            "FP": 68336.26666666666,
+            "IoU": 0.5167075950734559,
+            "TN": 280518246.53333336,
+            "TP": 687543.9333333333,
+            "n_pred": 755880.2,
+            "n_ref": 991025.7333333333
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 177485,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 563694259,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 177485
+                },
+                "2": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 563871744,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "3": {
+                    "Dice": 0.6950797788729874,
+                    "FN": 65052,
+                    "FP": 187128,
+                    "IoU": 0.5326607463195505,
+                    "TN": 563332136,
+                    "TP": 287428,
+                    "n_pred": 474556,
+                    "n_ref": 352480
+                },
+                "4": {
+                    "Dice": 0.9065616739792954,
+                    "FN": 68582,
+                    "FP": 91799,
+                    "IoU": 0.8290926451046399,
+                    "TN": 562933335,
+                    "TP": 778028,
+                    "n_pred": 869827,
+                    "n_ref": 846610
+                }
+            },
+            "prediction_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/Dataset501_AD/3dlowres/imagesTs_prediction_fold0/ad_051.nii.gz",
+            "reference_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/labelsTs/ad_051.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.025647823842150065,
+                    "FN": 67910,
+                    "FP": 1915,
+                    "IoU": 0.012990500961212258,
+                    "TN": 194964392,
+                    "TP": 919,
+                    "n_pred": 2834,
+                    "n_ref": 68829
+                },
+                "2": {
+                    "Dice": 0.9080834888720312,
+                    "FN": 12339,
+                    "FP": 111614,
+                    "IoU": 0.8316418697011597,
+                    "TN": 194298890,
+                    "TP": 612293,
+                    "n_pred": 723907,
+                    "n_ref": 624632
+                },
+                "3": {
+                    "Dice": 0.7362184555760964,
+                    "FN": 14693,
+                    "FP": 68208,
+                    "IoU": 0.5825519915403595,
+                    "TN": 194836546,
+                    "TP": 115689,
+                    "n_pred": 183897,
+                    "n_ref": 130382
+                },
+                "4": {
+                    "Dice": 0.38506863610821224,
+                    "FN": 36325,
+                    "FP": 1976,
+                    "IoU": 0.23844272562782096,
+                    "TN": 194984843,
+                    "TP": 11992,
+                    "n_pred": 13968,
+                    "n_ref": 48317
+                }
+            },
+            "prediction_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/Dataset501_AD/3dlowres/imagesTs_prediction_fold0/ad_052.nii.gz",
+            "reference_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/labelsTs/ad_052.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8855817082603747,
+                    "FN": 19964,
+                    "FP": 117455,
+                    "IoU": 0.7946582668505621,
+                    "TN": 308922843,
+                    "TP": 531802,
+                    "n_pred": 649257,
+                    "n_ref": 551766
+                },
+                "2": {
+                    "Dice": 0.8877398223332865,
+                    "FN": 9006,
+                    "FP": 163049,
+                    "IoU": 0.7981404352672025,
+                    "TN": 308739714,
+                    "TP": 680295,
+                    "n_pred": 843344,
+                    "n_ref": 689301
+                },
+                "3": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 6459,
+                    "IoU": 0.0,
+                    "TN": 309585605,
+                    "TP": 0,
+                    "n_pred": 6459,
+                    "n_ref": 0
+                },
+                "4": {
+                    "Dice": 0.5095650681993652,
+                    "FN": 4285,
+                    "FP": 1432,
+                    "IoU": 0.3418901807298262,
+                    "TN": 309583377,
+                    "TP": 2970,
+                    "n_pred": 4402,
+                    "n_ref": 7255
+                }
+            },
+            "prediction_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/Dataset501_AD/3dlowres/imagesTs_prediction_fold0/ad_059.nii.gz",
+            "reference_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/labelsTs/ad_059.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8901938481545104,
+                    "FN": 6046,
+                    "FP": 182589,
+                    "IoU": 0.8021165197852009,
+                    "TN": 297890897,
+                    "TP": 764628,
+                    "n_pred": 947217,
+                    "n_ref": 770674
+                },
+                "2": {
+                    "Dice": 0.7455314899112964,
+                    "FN": 376315,
+                    "FP": 89455,
+                    "IoU": 0.5943006810578129,
+                    "TN": 297696093,
+                    "TP": 682297,
+                    "n_pred": 771752,
+                    "n_ref": 1058612
+                },
+                "3": {
+                    "Dice": 0.5435032579532388,
+                    "FN": 135,
+                    "FP": 1056,
+                    "IoU": 0.37315789473684213,
+                    "TN": 298842260,
+                    "TP": 709,
+                    "n_pred": 1765,
+                    "n_ref": 844
+                },
+                "4": {
+                    "Dice": 0.09993132359463752,
+                    "FN": 10396,
+                    "FP": 241238,
+                    "IoU": 0.05259353245257019,
+                    "TN": 298578557,
+                    "TP": 13969,
+                    "n_pred": 255207,
+                    "n_ref": 24365
+                }
+            },
+            "prediction_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/Dataset501_AD/3dlowres/imagesTs_prediction_fold0/ad_060.nii.gz",
+            "reference_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/labelsTs/ad_060.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.9241546780244027,
+                    "FN": 54254,
+                    "FP": 52378,
+                    "IoU": 0.8590032964286706,
+                    "TN": 234911183,
+                    "TP": 649641,
+                    "n_pred": 702019,
+                    "n_ref": 703895
+                },
+                "2": {
+                    "Dice": 0.8780189462934312,
+                    "FN": 72661,
+                    "FP": 55383,
+                    "IoU": 0.7825612949459477,
+                    "TN": 235078582,
+                    "TP": 460830,
+                    "n_pred": 516213,
+                    "n_ref": 533491
+                },
+                "3": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 1099,
+                    "IoU": 0.0,
+                    "TN": 235666357,
+                    "TP": 0,
+                    "n_pred": 1099,
+                    "n_ref": 0
+                },
+                "4": {
+                    "Dice": 0.0,
+                    "FN": 7091,
+                    "FP": 52372,
+                    "IoU": 0.0,
+                    "TN": 235607993,
+                    "TP": 0,
+                    "n_pred": 52372,
+                    "n_ref": 7091
+                }
+            },
+            "prediction_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/Dataset501_AD/3dlowres/imagesTs_prediction_fold0/ad_061.nii.gz",
+            "reference_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/labelsTs/ad_061.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 4532,
+                    "IoU": 0.0,
+                    "TN": 344452684,
+                    "TP": 0,
+                    "n_pred": 4532,
+                    "n_ref": 0
+                },
+                "2": {
+                    "Dice": 0.8226134994335601,
+                    "FN": 244126,
+                    "FP": 11726,
+                    "IoU": 0.6986775362532196,
+                    "TN": 343608119,
+                    "TP": 593245,
+                    "n_pred": 604971,
+                    "n_ref": 837371
+                },
+                "3": {
+                    "Dice": 0.8935305240410589,
+                    "FN": 39503,
+                    "FP": 55093,
+                    "IoU": 0.8075509930056273,
+                    "TN": 343965678,
+                    "TP": 396942,
+                    "n_pred": 452035,
+                    "n_ref": 436445
+                },
+                "4": {
+                    "Dice": 0.7365860097638245,
+                    "FN": 195455,
+                    "FP": 49996,
+                    "IoU": 0.5830123898075018,
+                    "TN": 343868587,
+                    "TP": 343178,
+                    "n_pred": 393174,
+                    "n_ref": 538633
+                }
+            },
+            "prediction_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/Dataset501_AD/3dlowres/imagesTs_prediction_fold0/ad_065.nii.gz",
+            "reference_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/labelsTs/ad_065.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 247726080,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 68681,
+                    "FP": 0,
+                    "IoU": 0.0,
+                    "TN": 247657399,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 68681
+                },
+                "3": {
+                    "Dice": 0.8941738980957413,
+                    "FN": 36604,
+                    "FP": 29884,
+                    "IoU": 0.8086026334122091,
+                    "TN": 247378698,
+                    "TP": 280894,
+                    "n_pred": 310778,
+                    "n_ref": 317498
+                },
+                "4": {
+                    "Dice": 0.8485425634182239,
+                    "FN": 29687,
+                    "FP": 188681,
+                    "IoU": 0.7369291616520475,
+                    "TN": 246896007,
+                    "TP": 611705,
+                    "n_pred": 800386,
+                    "n_ref": 641392
+                }
+            },
+            "prediction_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/Dataset501_AD/3dlowres/imagesTs_prediction_fold0/ad_066.nii.gz",
+            "reference_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/labelsTs/ad_066.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 7388,
+                    "IoU": 0.0,
+                    "TN": 223601444,
+                    "TP": 0,
+                    "n_pred": 7388,
+                    "n_ref": 0
+                },
+                "2": {
+                    "Dice": 0.9095969289827255,
+                    "FN": 175997,
+                    "FP": 85879,
+                    "IoU": 0.8341841225136419,
+                    "TN": 222029514,
+                    "TP": 1317442,
+                    "n_pred": 1403321,
+                    "n_ref": 1493439
+                },
+                "3": {
+                    "Dice": 0.9068144225006137,
+                    "FN": 78628,
+                    "FP": 28805,
+                    "IoU": 0.8295155380433317,
+                    "TN": 222978669,
+                    "TP": 522730,
+                    "n_pred": 551535,
+                    "n_ref": 601358
+                },
+                "4": {
+                    "Dice": 0.4124463241481993,
+                    "FN": 1069,
+                    "FP": 26160,
+                    "IoU": 0.25979992388408635,
+                    "TN": 223572046,
+                    "TP": 9557,
+                    "n_pred": 35717,
+                    "n_ref": 10626
+                }
+            },
+            "prediction_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/Dataset501_AD/3dlowres/imagesTs_prediction_fold0/ad_067.nii.gz",
+            "reference_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/labelsTs/ad_067.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 10349,
+                    "IoU": 0.0,
+                    "TN": 246142867,
+                    "TP": 0,
+                    "n_pred": 10349,
+                    "n_ref": 0
+                },
+                "2": {
+                    "Dice": 0.9078003532140503,
+                    "FN": 171962,
+                    "FP": 84631,
+                    "IoU": 0.8311670452242526,
+                    "TN": 244633412,
+                    "TP": 1263211,
+                    "n_pred": 1347842,
+                    "n_ref": 1435173
+                },
+                "3": {
+                    "Dice": 0.9270080842465768,
+                    "FN": 20689,
+                    "FP": 49899,
+                    "IoU": 0.8639469418515228,
+                    "TN": 245634389,
+                    "TP": 448239,
+                    "n_pred": 498138,
+                    "n_ref": 468928
+                },
+                "4": {
+                    "Dice": 0.5818893783651493,
+                    "FN": 1739,
+                    "FP": 11074,
+                    "IoU": 0.41032721248101617,
+                    "TN": 246131487,
+                    "TP": 8916,
+                    "n_pred": 19990,
+                    "n_ref": 10655
+                }
+            },
+            "prediction_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/Dataset501_AD/3dlowres/imagesTs_prediction_fold0/ad_068.nii.gz",
+            "reference_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/labelsTs/ad_068.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 10655,
+                    "IoU": 0.0,
+                    "TN": 217831009,
+                    "TP": 0,
+                    "n_pred": 10655,
+                    "n_ref": 0
+                },
+                "2": {
+                    "Dice": 0.8836441648566413,
+                    "FN": 185058,
+                    "FP": 41597,
+                    "IoU": 0.7915434640453748,
+                    "TN": 216754363,
+                    "TP": 860646,
+                    "n_pred": 902243,
+                    "n_ref": 1045704
+                },
+                "3": {
+                    "Dice": 0.8733621593291404,
+                    "FN": 66457,
+                    "FP": 37925,
+                    "IoU": 0.7751933476769204,
+                    "TN": 217377345,
+                    "TP": 359937,
+                    "n_pred": 397862,
+                    "n_ref": 426394
+                },
+                "4": {
+                    "Dice": 0.8161768035867941,
+                    "FN": 9391,
+                    "FP": 2786,
+                    "IoU": 0.6894414690130068,
+                    "TN": 217802454,
+                    "TP": 27033,
+                    "n_pred": 29819,
+                    "n_ref": 36424
+                }
+            },
+            "prediction_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/Dataset501_AD/3dlowres/imagesTs_prediction_fold0/ad_069.nii.gz",
+            "reference_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/labelsTs/ad_069.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 198443008,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "2": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 198443008,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "3": {
+                    "Dice": 0.810627326435133,
+                    "FN": 247819,
+                    "FP": 29451,
+                    "IoU": 0.681558727934674,
+                    "TN": 197572298,
+                    "TP": 593440,
+                    "n_pred": 622891,
+                    "n_ref": 841259
+                },
+                "4": {
+                    "Dice": 0.8313019278747602,
+                    "FN": 545307,
+                    "FP": 10444,
+                    "IoU": 0.7113059803059866,
+                    "TN": 196517956,
+                    "TP": 1369301,
+                    "n_pred": 1379745,
+                    "n_ref": 1914608
+                }
+            },
+            "prediction_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/Dataset501_AD/3dlowres/imagesTs_prediction_fold0/ad_097.nii.gz",
+            "reference_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/labelsTs/ad_097.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 188481536,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 721217,
+                    "IoU": 0.0,
+                    "TN": 187760319,
+                    "TP": 0,
+                    "n_pred": 721217,
+                    "n_ref": 0
+                },
+                "3": {
+                    "Dice": 0.8531100331801552,
+                    "FN": 410238,
+                    "FP": 83333,
+                    "IoU": 0.7438464524593431,
+                    "TN": 186554680,
+                    "TP": 1433285,
+                    "n_pred": 1516618,
+                    "n_ref": 1843523
+                },
+                "4": {
+                    "Dice": 0.6786420195124327,
+                    "FN": 3128448,
+                    "FP": 11080,
+                    "IoU": 0.5135943699844466,
+                    "TN": 182026989,
+                    "TP": 3315019,
+                    "n_pred": 3326099,
+                    "n_ref": 6443467
+                }
+            },
+            "prediction_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/Dataset501_AD/3dlowres/imagesTs_prediction_fold0/ad_098.nii.gz",
+            "reference_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/labelsTs/ad_098.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 460640,
+                    "IoU": 0.0,
+                    "TN": 484243616,
+                    "TP": 0,
+                    "n_pred": 460640,
+                    "n_ref": 0
+                },
+                "2": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 17594,
+                    "IoU": 0.0,
+                    "TN": 484686662,
+                    "TP": 0,
+                    "n_pred": 17594,
+                    "n_ref": 0
+                },
+                "3": {
+                    "Dice": 0.48161509953551584,
+                    "FN": 648804,
+                    "FP": 46938,
+                    "IoU": 0.3171890733292899,
+                    "TN": 483685318,
+                    "TP": 323196,
+                    "n_pred": 370134,
+                    "n_ref": 972000
+                },
+                "4": {
+                    "Dice": 0.89553316107773,
+                    "FN": 195653,
+                    "FP": 194546,
+                    "IoU": 0.8108284735389468,
+                    "TN": 482641583,
+                    "TP": 1672474,
+                    "n_pred": 1867020,
+                    "n_ref": 1868127
+                }
+            },
+            "prediction_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/Dataset501_AD/3dlowres/imagesTs_prediction_fold0/ad_099.nii.gz",
+            "reference_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/labelsTs/ad_099.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.0,
+                    "FN": 0,
+                    "FP": 179359,
+                    "IoU": 0.0,
+                    "TN": 344277857,
+                    "TP": 0,
+                    "n_pred": 179359,
+                    "n_ref": 0
+                },
+                "2": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 344457216,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "3": {
+                    "Dice": 0.8145805315661271,
+                    "FN": 229799,
+                    "FP": 113507,
+                    "IoU": 0.6871664868490115,
+                    "TN": 343359808,
+                    "TP": 754102,
+                    "n_pred": 867609,
+                    "n_ref": 983901
+                },
+                "4": {
+                    "Dice": 0.9121096962235966,
+                    "FN": 226297,
+                    "FP": 134955,
+                    "IoU": 0.8384206505539961,
+                    "TN": 342221460,
+                    "TP": 1874504,
+                    "n_pred": 2009459,
+                    "n_ref": 2100801
+                }
+            },
+            "prediction_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/Dataset501_AD/3dlowres/imagesTs_prediction_fold0/ad_100.nii.gz",
+            "reference_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/labelsTs/ad_100.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 124780544,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "2": {
+                    "Dice": NaN,
+                    "FN": 0,
+                    "FP": 0,
+                    "IoU": NaN,
+                    "TN": 124780544,
+                    "TP": 0,
+                    "n_pred": 0,
+                    "n_ref": 0
+                },
+                "3": {
+                    "Dice": 0.9001448885127771,
+                    "FN": 20578,
+                    "FP": 18361,
+                    "IoU": 0.8184213348752839,
+                    "TN": 124566097,
+                    "TP": 175508,
+                    "n_pred": 193869,
+                    "n_ref": 196086
+                },
+                "4": {
+                    "Dice": 0.847219200256777,
+                    "FN": 92502,
+                    "FP": 6505,
+                    "IoU": 0.7349352109659456,
+                    "TN": 124407024,
+                    "TP": 274513,
+                    "n_pred": 281018,
+                    "n_ref": 367015
+                }
+            },
+            "prediction_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/Dataset501_AD/3dlowres/imagesTs_prediction_fold0/ad_101.nii.gz",
+            "reference_file": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/labelsTs/ad_101.nii.gz"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+Starting at Tue 25 Feb 2025 01:22:26 AM GMT
+nnUNet_preprocessed is not defined and nnU-Net can not be used for preprocessing or training. If this is not intended, please read documentation/setting_up_paths.md for information on how to set this up.
+Fingerprint extraction...
+Dataset502_AD
+Using <class 'nnunetv2.imageio.simpleitk_reader_writer.SimpleITKIO'> reader/writer
+Traceback (most recent call last):
+  File "/home3/hghr96/miniconda3/envs/nnUnet/bin/nnUNetv2_plan_and_preprocess", line 8, in <module>
+    sys.exit(plan_and_preprocess_entry())
+  File "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/nnunetv2/experiment_planning/plan_and_preprocess_entrypoints.py", line 180, in plan_and_preprocess_entry
+    extract_fingerprints(args.d, args.fpe, args.npfp, args.verify_dataset_integrity, args.clean, args.verbose)
+  File "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/nnunetv2/experiment_planning/plan_and_preprocess_api.py", line 47, in extract_fingerprints
+    extract_fingerprint_dataset(d, fingerprint_extractor_class, num_processes, check_dataset_integrity, clean,
+  File "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/nnunetv2/experiment_planning/plan_and_preprocess_api.py", line 30, in extract_fingerprint_dataset
+    verify_dataset_integrity(join(nnUNet_raw, dataset_name), num_processes)
+  File "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/nnunetv2/experiment_planning/verify_dataset_integrity.py", line 219, in verify_dataset_integrity
+    raise RuntimeError(
+RuntimeError: Some images have errors. Please check text output above to see which one(s) and what's going on.
+Finished at Tue 25 Feb 2025 01:28:11 AM GMT
+Total Execution Time: 345 seconds

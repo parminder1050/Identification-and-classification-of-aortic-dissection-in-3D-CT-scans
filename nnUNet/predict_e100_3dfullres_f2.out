@@ -1,0 +1,87 @@
+Starting at Mon 10 Mar 2025 01:04:18 PM GMT
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+There are 15 cases in the source folder
+I am process 0 out of 1 (max process ID is 0, we start counting with 0!)
+There are 15 cases that I would like to predict
+
+Predicting ad_051:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_051
+
+Predicting ad_052:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_052
+
+Predicting ad_059:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_059
+
+Predicting ad_060:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_060
+
+Predicting ad_061:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_061
+
+Predicting ad_065:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_065
+
+Predicting ad_066:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_066
+
+Predicting ad_067:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_067
+
+Predicting ad_068:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_068
+
+Predicting ad_069:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_069
+
+Predicting ad_097:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_097
+
+Predicting ad_098:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_098
+
+Predicting ad_099:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_099
+
+Predicting ad_100:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_100
+
+Predicting ad_101:
+perform_everything_on_device: True
+sending off prediction to background worker for resampling and export
+done with ad_101
+Finished at Mon 10 Mar 2025 03:14:42 PM GMT
+Total Execution Time: 7824 seconds

@@ -1,0 +1,11 @@
+{
+    "folder_with_segs_from_prev_stage": null,
+    "list_of_lists_or_source_folder": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/imagesTs",
+    "num_parts": 1,
+    "num_processes_preprocessing": 1,
+    "num_processes_segmentation_export": 1,
+    "output_folder_or_list_of_truncated_output_files": "/home3/hghr96/parm/work/AD_project/segmentation/nnUNet/testdata_instances_from_data/Dataset501_AD/3dlowres/imagesTs_prediction_fold0",
+    "overwrite": true,
+    "part_id": 0,
+    "save_probabilities": true
+}
