@@ -1,1 +1,0 @@
-This folder should contain the corresponding labels for the images/scans (present in the imagesTr folder) used to train the nnUNet model. 
